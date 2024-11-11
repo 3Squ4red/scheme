@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Property Valuation Report",
+    "description": "OID Claim representing a property valuation report, documenting the property’s estimated value.",
+    "image": "link_to_image_of_valuation_report",
+    "topic": "222",
+    "scheme": "1",
+    "issuer": "0xab1599d0d57609977388E5c1EEF28351d0aE71e0",
+    "signature": "0x870a71598d56857E42f17aF00A0D34F7A0B9DCdB4a3423fdsfsdf",
+    "attributes": [
+      {
+        "field": "Claim Type",
+        "value": "Property Valuation"
+      },
+      {
+        "field": "Property Value",
+        "value": "500000"
+      },
+      {
+        "field": "Currency",
+        "value": "USD"
+      },
+      {
+        "field": "Appraisal Date",
+        "value": "2024-11-11"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Land Title Claim Report",
+    "description": "OID Claim representing a legal report that validates the land title claim.",
+    "image": "link_to_image_of_legal_report",
+    "topic": "111",
+    "scheme": "1",
+    "issuer": "0x60a71598d56857E42f17aF00A0D34F7A0B9DCdB4",
+    "signature": "0x60a71598d56857E42f17aF00A0D34F7A0B9DCdB4a3423fdsfsdf",
+    "attributes": [
+      {
+        "field": "Claim Type",
+        "value": "Land Title Validation"
+      },
+      {
+        "field": "Jurisdiction",
+        "value": "State or Country"
+      },
+      {
+        "field": "Title Number",
+        "value": "Title12345"
+      },
+      {
+        "field": "Issuance Date",
+        "value": "2024-11-11"
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Identity Verification",
+    "description": "OID Claim representing identity verification, using hashed document data.",
+    "image": "link_to_image_of_identity_verification_document",
+    "topic": "333",
+    "scheme": "1",
+    "issuer": "0x47651792982c687580814Cf3742F28896300692C",
+    "signature": "0x45a71598d56857E42f17aF00A0D34F7A0B9DCdB4a3423fdsfsdf",
+    "attributes": [
+      {
+        "field": "Verification Type",
+        "value": "Identity Verification"
+      },
+      {
+        "field": "Documents Used (Hexcode)",
+        "value": "0x4a3b2f4c7e"
+      },
+      {
+        "field": "Verification Date",
+        "value": "2024-11-11"
+      }
+    ]
+  }
+]
