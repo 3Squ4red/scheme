@@ -3,10 +3,15 @@ const hre = require("hardhat");
 const LEGAL_REPORT_TOPIC = 111;
 const VALUATION_REPORT_TOPIC = 222;
 const IDENTITY_VERIFICATION_TOPIC = 333;
+const BANK_ACCOUNT_TOPIC = 444;
+const UNIVERSITY_ACCREDITATION_TOPIC = 555;
+const GRADUATION_TOPIC = 666;
 
 const LAWYER_CIC = "0xa41C4b590c25ae82d459Cd617f3A6A525A97D66C";
 const CA_CIC = "0x0db7b8623DE28cde98DDf56C59a5D461E87360a0";
 const UIDAI_CIC = "0x98B11F6e8e2228F394270437936C22Dc348f018F";
+const AXIS_BANK_CIC = "0xF92622F661848b00CFC4C2119879dC0699Bd8d79";
+const DU_CIC = "0x5E82df943816007F7dfBbd19F5B0995c66A9F64b";
 
 const ALICE_OID = "0x74e871680c47729F8C33C8dE9558E4eCC0D931Dc";
 const BOB_OID = "0x6Ae908FEB892a5a7A1C6252C1F8AB05d62211725";
@@ -17,6 +22,9 @@ const VALUATION_REPORT_URI =
   "https://jade-responsible-goat-742.mypinata.cloud/files/bafkreihyzse4oh62efbkq7647ghj74cre4akwf2p4urz6oevhbyx7uhk34?X-Algorithm=PINATA1&X-Date=1731320507&X-Expires=30&X-Method=GET&X-Signature=459d55267ef8183951b169c685920f4c863a1dacc6ad94ca6575eb0993f91b04";
 const IDENTITY_VERIFICATION_URI =
   "https://jade-responsible-goat-742.mypinata.cloud/files/bafkreigbvzsp3tfidcrbk3kyki3rmcurrgn6umv2xccw26rnunm75m7ziq?X-Algorithm=PINATA1&X-Date=1731320537&X-Expires=30&X-Method=GET&X-Signature=74408194a2556976516199a0381274f877059946c7774cd10080107411d4a685";
+const BANK_ACCOUNT_URI = "https://jade-responsible-goat-742.mypinata.cloud/ipfs/QmZhKi4PeAvv4gGVicvgqM7jhQa9yJwxyGhhkYPy6WEhAq";
+const UNIVERSITY_ACCREDITATION_URI = "https://jade-responsible-goat-742.mypinata.cloud/ipfs/QmTrPJd1siLzzbnLEwgp93fTNijPGn5uxibi6e3y391Mmm";
+const GRADUATION_URI = "https://jade-responsible-goat-742.mypinata.cloud/ipfs/QmdrEVr1mgu9WFdXW2kepH44g1VzjCRktk4hRm1dEkqqyd";
 
 async function main() {
   const [deployer, lawyer, ca, uidai, alice, bob] =

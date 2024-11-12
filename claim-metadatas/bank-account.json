@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Bank Account Claim",
+    "description": "Claim verifying bank account details.",
+    "image": "link_to_image_of_bank_statement",
+    "topic": "444",
+    "scheme": "1",
+    "issuer": "0x8BE65d9A9B6F304E663170ab5BAA7f2e9d7D33b3",
+    "signature": "0x1320a71598d56857E42f17aF00A0D34F7A0B9DCdB4a3423fdsfsdf",
+    "attributes": [
+      {
+        "field": "Amount As Of",
+        "value": "10000"
+      },
+      {
+        "field": "Residency Status",
+        "value": "NRI"
+      }
+    ]
+  }
+]

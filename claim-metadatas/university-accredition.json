@@ -1,0 +1,29 @@
+[
+  {
+    "name": "University Accreditation Claim",
+    "description": "Claim verifying university accreditation details.",
+    "image": "link_to_image_of_accreditation_certificate",
+    "topic": "555",
+    "scheme": "1",
+    "issuer": "0xFb5427d3E0aA7f483E7c8d5870D7445A58fc3c42",
+    "signature": "0x3430a71598d56857E42f17aF00A0D34F7A0B9DCdB4a3423fdsfsdf",
+    "attributes": [
+      {
+        "field": "University",
+        "value": "Example University"
+      },
+      {
+        "field": "Admission Date",
+        "value": "2020-09-01"
+      },
+      {
+        "field": "Course",
+        "value": "Bachelor of Science in Computer Science with Cybersecurity"
+      },
+      {
+        "field": "University Registration Number",
+        "value": "U123456789"
+      }
+    ]
+  }
+]
